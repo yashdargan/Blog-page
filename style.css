@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #1e293b;
+  color: #f1f1f1;
+}
+
+nav,
+.nav-list {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-list {
+  flex-direction: row;
+  gap: 1.2rem;
+  align-items: space-around;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  height: 12rem;
+  gap: 0.5rem;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  color: cornsilk;
+}
+
+hr {
+  border: none;
+  /* Remove the default border */
+  height: 1px;
+  /* Set the height/thickness of the line */
+  background-color: #ccc;
+  /* Set the color of the line */
+  width: 50%;
+  /* Set the width of the line */
+  margin: 20px auto;
+  /* Center the line and add vertical space */
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .blog-list {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+.blogs {
+  display: flex;
+  margin: 1rem 0;
+  background-color: #f1f1f1;
+  width: 40%;
+  height: 30rem;
+}
+
+.blog-footer {
+  display: flex;
+  gap: 1.2rem;
+  font-style: italic;
+}
+
+.blog-footer li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height:4rem;
+  button{
+  background-color: blue;
+    color: white;
+    font-weight: bold;
+  padding: 10px 15px;
+    border: none;
+  }
+}
